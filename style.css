@@ -164,7 +164,6 @@ section.home {
   height: 110%;
 }
 
-
 .services {
   margin-top: 40px;
   display: grid;
@@ -191,7 +190,6 @@ section.home {
 .services .service .icon img {
   max-width: 100px;
 }
-
 
 .portfolio {
   display: flex;
@@ -238,8 +236,6 @@ section.home {
   padding: 5px 15px;
 }
 
-
-
 @media (max-width: 1068px) {
   .home-img {
     display: none;
@@ -262,8 +258,7 @@ section.home {
   .services {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  
+}
 
 @media (max-width: 768px) {
   .services {
